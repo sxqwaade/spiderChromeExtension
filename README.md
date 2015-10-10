@@ -1,0 +1,4 @@
+# kaluliChromeExtension
+谷歌小插件 实现页面内容抓取及导出为excel的功能
+
+数据保存在localStorage中,数据保存为json发送给后台服务，json转化excel是通过node服务实现的，转化成功后会返回一个文件链接。
